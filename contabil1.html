@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contadora Karyn Beltrame</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('fundo.png'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            max-width: 600px;
+            width: 90%;
+            margin: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            font-size: 2rem;
+        }
+
+        h2 {
+            color: #f0f0f0;
+            margin-top: 25px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #e0e0e0;
+        }
+
+        /* ===== SERVIÇOS ===== */
+
+        .servicos-box {
+            width: 100%;
+            text-align: center;
+        }
+
+        .servicos-box ul {
+            list-style: none;
+            padding: 0;
+            margin: 15px auto 0 auto;
+            display: table;
+            text-align: left;
+        }
+
+        .servicos-box ul li {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .servicos-box ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #128c7e;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Contadora Karyn Beltrame</h1>
+            <p>Excelência, confiança e soluções contábeis</p>
+            <a href="https://wa.me/5544998092363" target="_blank" class="btn">Fale pelo WhatsApp</a>
+        </header>
+
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>
+                Atuamos com responsabilidade e compromisso, oferecendo serviços contábeis
+                personalizados para empresas e pessoas físicas.
+            </p>
+        </section>
+
+        <section>
+            <div class="servicos-box">
+                <h2>Serviços</h2>
+                <ul>
+                    <li>Abertura e regularização de empresas</li>
+                    <li>Contabilidade para MEI, ME e LTDA</li>
+                    <li>Imposto de Renda Pessoa Física</li>
+                    <li>Folha de pagamento</li>
+                    <li>Consultoria contábil</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            
+        </section>
+
+        <footer>
+            <p>©️ 2025 Contadora Karyn Beltrame • Todos os direitos reservados</p>
+        </footer>
+
+    </div>
+</body>
+</html>
